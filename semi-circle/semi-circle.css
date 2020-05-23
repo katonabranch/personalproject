@@ -1,18 +1,19 @@
 body{
-    padding: 0%;
+    padding: 0;
     margin: 0;
 }
 .container{
-    background-color: #FCBF49;
+    background-color: #D62828;
     height: 100vh;
     width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.circle{
+.semi-circle{
     background-color: white;
-    height: 250px;
+    /* height should be exact half of width*/
+    height: 125px;
     width: 250px;
-    border-radius: 50%;
+    border-radius: 125px 125px 0 0;
 }
