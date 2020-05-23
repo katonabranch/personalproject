@@ -1,0 +1,63 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background-color: #D62828;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* SHAPES START HERE*/
+.square{
+    background-color: white;
+    height: 250px;
+    width: 250px;
+}
+.circle{
+    background-color: white;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+.triangle{
+    height: 0;
+    width: 0;
+    border-bottom: 250px solid white;
+    border-left: 160px solid transparent;
+    border-right: 160px solid transparent;   
+}
+.semi-circle{
+    background-color: white;
+    /* height should be exact half of width*/
+    height: 125px;
+    width: 250px;
+    border-radius: 125px 125px 0 0;
+}
+.ellipse{
+    background-color: white;
+    height: 200px;
+    width: 300px;
+    border-radius: 50%;
+}
+.parallelogram{
+    background-color: white;
+    height: 250px;
+    width: 300px;
+    transform: skew(-20deg);
+}
+.trapezium{
+    height: 0;
+    width: 200px;
+    border-bottom: 200px solid white;
+    border-left: 100px solid transparent; 
+    border-right: 100px solid transparent;  
+}
+.right-triangle{
+    height: 0;
+    width: 0;
+    border-radius: 200px solid white;
+    border-right: 200px solid transparent;
+}
