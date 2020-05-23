@@ -94,4 +94,37 @@ body{
     width: 150px;
     transform: rotate(45deg);   
 }
-.heart::before
+.heart:before{
+    position: absolute;
+    content: '';
+    background-color: white;
+    height: 60%;
+    width: 100%;
+    top:-59%;
+    border-radius: 75px 75px 0 0;
+}
+.heart:after{
+    position: absolute;
+    content: '';
+    background-color: white;
+    height: 60%;
+    width: 100%;
+    transform: rotate(-90deg);
+    top:20%;
+    right: 79%;
+    border-radius: 75px 75px 0 0; 
+}
+.drop{
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    border-radius: 0 50% 50% 50%;
+    transform: rotate(45deg);
+}
+.moon{
+    height: 200px;
+    width: 200px;
+    background-color: transparent;
+    box-shadow: -20px 20px 0 15px white;
+    border-radius: 50%;
+}
